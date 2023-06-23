@@ -18,5 +18,19 @@ function conversation() {
 }
 
 function age() {
-  // write your code here
+ let age = Number(promot('How old are you?'))
+
+ if (age > 65) {
+  alert('You can retire')
+ }
+ if ( age < 5){
+  alert('You need surpervision when you use a computer')
+ }
+ if (age >= 18) {
+  alert("You're old enough to vote")
+ }
+ if (age !=15) {
+  alert("You're not the same age as me")
+ }
+
 }
