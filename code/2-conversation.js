@@ -3,6 +3,7 @@
 // ####################################
 
 function conversation() {
+  // Ask questions and change the sentences I show depending on the answers.
   alert('Welcome to my conversation program.')
 
   alert('Do you like cycling? Answer yes or no.')
@@ -18,6 +19,7 @@ function conversation() {
 }
 
 function age() {
+  //Ask their age and tell them if they need supervision to use the computer depending on their age.
   alert('How old are you?')
   let age = Number(prompt())
   if (age < 1) {
@@ -41,6 +43,4 @@ function age() {
   if (age != 16 && age >= 5 && age < 18) {
     alert('You are not the same age as me.')
   }
-
-
 }
